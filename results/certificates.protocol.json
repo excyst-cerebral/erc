@@ -1,0 +1,28 @@
+{
+  "n": 2000,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seed_offset": 30100,
+  "tasks": [
+    "cifar10",
+    "mammal_other"
+  ],
+  "scores": [
+    "residual",
+    "aps"
+  ],
+  "target": 0.9,
+  "objective": "Recover exactly the full-pool clean conformal threshold",
+  "query": "Dataset reference label emulates adjudication; the policy accesses it only through a charged query",
+  "limitations": "Exploratory cached-model study. Existing test set; no new human adjudication. Not a comparison against label-efficient stopping or prediction-powered calibration."
+}

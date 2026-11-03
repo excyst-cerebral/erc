@@ -1,0 +1,75 @@
+{
+  "stage": "Budget-coupled follow-up after unrestricted exact-recovery study",
+  "n": 2000,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "calibration_seed_offset": 70100,
+  "audit_seed_offset": 71100,
+  "review_seed_offset": 72100,
+  "aps_seed_offset": 73100,
+  "pilot": 200,
+  "total_review_costs": [
+    200,
+    400,
+    800,
+    1200,
+    1700,
+    2000
+  ],
+  "alpha": 0.09,
+  "gamma": 0.01,
+  "tasks": [
+    "cifar10",
+    "mammal_other"
+  ],
+  "scores": [
+    "residual",
+    "aps"
+  ],
+  "policies": [
+    "random",
+    "interval",
+    "budget_gain"
+  ],
+  "policy": "One-step surrogate review gains at the next lower score event; true labels enter the policy only after a charged query. Class probabilities guide selection but are not assumed to be calibrated for validity.",
+  "scope": "Real CIFAR-10N annotations; dataset reference labels emulate accurate review. One cached classifier, reused test set, exploratory evaluation. Initial uniform audit supplies a fixed simultaneous residual-error budget; subsequent review decrements it by observed errors. Oracle certificate is an explicitly privileged diagnostic, never a deployable policy.",
+  "stronger_comparators": [
+    "Uniform clean-subset conformal at the same total review cost and target .90",
+    "Uniform audit with a freshly inverted error budget using all reviewed labels",
+    "Partial-label calibration on each policy transcript at matched target .90"
+  ],
+  "not_evaluated": [
+    "Published label-efficient stopping algorithms optimize a different stopping-cost objective and are discussed as related work, not claimed to be outperformed"
+  ],
+  "posthoc_diagnostic": "After inspecting the fixed-budget policy results, compare the clairvoyant certificate cost under the initial survey bound with its cost under the exact realized residual error count. Both use true labels and are explicitly privileged diagnostics."
+}

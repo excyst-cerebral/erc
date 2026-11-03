@@ -1,0 +1,713 @@
+{
+  "protocol": {
+    "n": 2000,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed_offset": 30100,
+    "tasks": [
+      "cifar10",
+      "mammal_other"
+    ],
+    "scores": [
+      "residual",
+      "aps"
+    ],
+    "target": 0.9,
+    "objective": "Recover exactly the full-pool clean conformal threshold",
+    "query": "Dataset reference label emulates adjudication; the policy accesses it only through a charged query",
+    "limitations": "Exploratory cached-model study. Existing test set; no new human adjudication. Not a comparison against label-efficient stopping or prediction-powered calibration."
+  },
+  "generated_cases_checked": 1350,
+  "rows": [
+    {
+      "task": "cifar10",
+      "seed": 0,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.8395355939865112,
+      "coverage": 0.8957,
+      "avg_set_size": 1.3009,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.8395355939865112,
+        "coverage": 0.8957,
+        "avg_set_size": 1.3009
+      },
+      "strict_crossing_lower_bound": 2000
+    },
+    {
+      "task": "cifar10",
+      "seed": 0,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9261223342700192,
+      "coverage": 0.8976,
+      "avg_set_size": 1.5826,
+      "targeted_queries": 1995,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9261223342700192,
+        "coverage": 0.8976,
+        "avg_set_size": 1.5826
+      },
+      "strict_crossing_lower_bound": 1939
+    },
+    {
+      "task": "cifar10",
+      "seed": 1,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.8115689754486084,
+      "coverage": 0.8861,
+      "avg_set_size": 1.2476,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.8115689754486084,
+        "coverage": 0.8861,
+        "avg_set_size": 1.2476
+      },
+      "strict_crossing_lower_bound": 2000
+    },
+    {
+      "task": "cifar10",
+      "seed": 1,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9200942640434497,
+      "coverage": 0.8953,
+      "avg_set_size": 1.5585,
+      "targeted_queries": 1998,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9200942640434497,
+        "coverage": 0.8953,
+        "avg_set_size": 1.5585
+      },
+      "strict_crossing_lower_bound": 1925
+    },
+    {
+      "task": "cifar10",
+      "seed": 2,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.8372759222984314,
+      "coverage": 0.8946,
+      "avg_set_size": 1.2953,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.8372759222984314,
+        "coverage": 0.8946,
+        "avg_set_size": 1.2953
+      },
+      "strict_crossing_lower_bound": 2000
+    },
+    {
+      "task": "cifar10",
+      "seed": 2,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9300474772055627,
+      "coverage": 0.9042,
+      "avg_set_size": 1.6112,
+      "targeted_queries": 1996,
+      "random_queries": 1999,
+      "same_cost_random_clean_cp": {
+        "q": 0.9300474772055627,
+        "coverage": 0.9042,
+        "avg_set_size": 1.6112
+      },
+      "strict_crossing_lower_bound": 1939
+    },
+    {
+      "task": "cifar10",
+      "seed": 3,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.8362157344818115,
+      "coverage": 0.8943,
+      "avg_set_size": 1.2934,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.8362157344818115,
+        "coverage": 0.8943,
+        "avg_set_size": 1.2934
+      },
+      "strict_crossing_lower_bound": 2000
+    },
+    {
+      "task": "cifar10",
+      "seed": 3,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9257947649000574,
+      "coverage": 0.8974,
+      "avg_set_size": 1.5854,
+      "targeted_queries": 1992,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9262879011074975,
+        "coverage": 0.8982,
+        "avg_set_size": 1.5887
+      },
+      "strict_crossing_lower_bound": 1935
+    },
+    {
+      "task": "cifar10",
+      "seed": 4,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.8414434194564819,
+      "coverage": 0.8962,
+      "avg_set_size": 1.3042,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.8414434194564819,
+        "coverage": 0.8962,
+        "avg_set_size": 1.3042
+      },
+      "strict_crossing_lower_bound": 2000
+    },
+    {
+      "task": "cifar10",
+      "seed": 4,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.926167059611874,
+      "coverage": 0.8967,
+      "avg_set_size": 1.582,
+      "targeted_queries": 1994,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.926167059611874,
+        "coverage": 0.8967,
+        "avg_set_size": 1.582
+      },
+      "strict_crossing_lower_bound": 1927
+    },
+    {
+      "task": "cifar10",
+      "seed": 5,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.8331031799316406,
+      "coverage": 0.8937,
+      "avg_set_size": 1.2881,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.8331031799316406,
+        "coverage": 0.8937,
+        "avg_set_size": 1.2881
+      },
+      "strict_crossing_lower_bound": 2000
+    },
+    {
+      "task": "cifar10",
+      "seed": 5,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9251767157405281,
+      "coverage": 0.8929,
+      "avg_set_size": 1.5767,
+      "targeted_queries": 1997,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9253572018676494,
+        "coverage": 0.8934,
+        "avg_set_size": 1.578
+      },
+      "strict_crossing_lower_bound": 1934
+    },
+    {
+      "task": "cifar10",
+      "seed": 6,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.8556841611862183,
+      "coverage": 0.9015,
+      "avg_set_size": 1.3406,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.8556841611862183,
+        "coverage": 0.9015,
+        "avg_set_size": 1.3406
+      },
+      "strict_crossing_lower_bound": 2000
+    },
+    {
+      "task": "cifar10",
+      "seed": 6,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9313577346065607,
+      "coverage": 0.9038,
+      "avg_set_size": 1.6164,
+      "targeted_queries": 1993,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9314386146808995,
+        "coverage": 0.9038,
+        "avg_set_size": 1.6172
+      },
+      "strict_crossing_lower_bound": 1938
+    },
+    {
+      "task": "cifar10",
+      "seed": 7,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.8420285582542419,
+      "coverage": 0.8965,
+      "avg_set_size": 1.3061,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.8420285582542419,
+        "coverage": 0.8965,
+        "avg_set_size": 1.3061
+      },
+      "strict_crossing_lower_bound": 2000
+    },
+    {
+      "task": "cifar10",
+      "seed": 7,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9215007564637159,
+      "coverage": 0.8929,
+      "avg_set_size": 1.5577,
+      "targeted_queries": 1992,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9226294140160625,
+        "coverage": 0.8939,
+        "avg_set_size": 1.5645
+      },
+      "strict_crossing_lower_bound": 1936
+    },
+    {
+      "task": "cifar10",
+      "seed": 8,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.8563883900642395,
+      "coverage": 0.9017,
+      "avg_set_size": 1.3418,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.8563883900642395,
+        "coverage": 0.9017,
+        "avg_set_size": 1.3418
+      },
+      "strict_crossing_lower_bound": 2000
+    },
+    {
+      "task": "cifar10",
+      "seed": 8,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9344838890914733,
+      "coverage": 0.9056,
+      "avg_set_size": 1.6356,
+      "targeted_queries": 1990,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9346035282059987,
+        "coverage": 0.9058,
+        "avg_set_size": 1.6367
+      },
+      "strict_crossing_lower_bound": 1936
+    },
+    {
+      "task": "cifar10",
+      "seed": 9,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.8652057647705078,
+      "coverage": 0.9052,
+      "avg_set_size": 1.3649,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.8652057647705078,
+        "coverage": 0.9052,
+        "avg_set_size": 1.3649
+      },
+      "strict_crossing_lower_bound": 2000
+    },
+    {
+      "task": "cifar10",
+      "seed": 9,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9349795092195115,
+      "coverage": 0.9047,
+      "avg_set_size": 1.6406,
+      "targeted_queries": 1989,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9348823925910811,
+        "coverage": 0.9046,
+        "avg_set_size": 1.64
+      },
+      "strict_crossing_lower_bound": 1941
+    },
+    {
+      "task": "mammal_other",
+      "seed": 0,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.29834234714508057,
+      "coverage": 0.8985,
+      "avg_set_size": 0.9367,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.29834234714508057,
+        "coverage": 0.8985,
+        "avg_set_size": 0.9367
+      },
+      "strict_crossing_lower_bound": 1878
+    },
+    {
+      "task": "mammal_other",
+      "seed": 0,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9087484703551048,
+      "coverage": 0.901,
+      "avg_set_size": 1.0288,
+      "targeted_queries": 1740,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.910161850749227,
+        "coverage": 0.9031,
+        "avg_set_size": 1.0315
+      },
+      "strict_crossing_lower_bound": 1685
+    },
+    {
+      "task": "mammal_other",
+      "seed": 1,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.31562022315324023,
+      "coverage": 0.9031,
+      "avg_set_size": 0.9434,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.31562022315324023,
+        "coverage": 0.9031,
+        "avg_set_size": 0.9434
+      },
+      "strict_crossing_lower_bound": 1883
+    },
+    {
+      "task": "mammal_other",
+      "seed": 1,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9064725323883579,
+      "coverage": 0.9018,
+      "avg_set_size": 1.0315,
+      "targeted_queries": 1728,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9075095875701396,
+        "coverage": 0.903,
+        "avg_set_size": 1.0338
+      },
+      "strict_crossing_lower_bound": 1663
+    },
+    {
+      "task": "mammal_other",
+      "seed": 2,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.269855098119682,
+      "coverage": 0.8892,
+      "avg_set_size": 0.9249,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.269855098119682,
+        "coverage": 0.8892,
+        "avg_set_size": 0.9249
+      },
+      "strict_crossing_lower_bound": 1861
+    },
+    {
+      "task": "mammal_other",
+      "seed": 2,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9040400707903073,
+      "coverage": 0.8969,
+      "avg_set_size": 1.0273,
+      "targeted_queries": 1751,
+      "random_queries": 1998,
+      "same_cost_random_clean_cp": {
+        "q": 0.90876258572766,
+        "coverage": 0.9013,
+        "avg_set_size": 1.0337
+      },
+      "strict_crossing_lower_bound": 1686
+    },
+    {
+      "task": "mammal_other",
+      "seed": 3,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.27922697539490315,
+      "coverage": 0.8915,
+      "avg_set_size": 0.9278,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.27922697539490315,
+        "coverage": 0.8915,
+        "avg_set_size": 0.9278
+      },
+      "strict_crossing_lower_bound": 1864
+    },
+    {
+      "task": "mammal_other",
+      "seed": 3,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9013974716447206,
+      "coverage": 0.8941,
+      "avg_set_size": 1.0201,
+      "targeted_queries": 1724,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9002707675871001,
+        "coverage": 0.8928,
+        "avg_set_size": 1.0181
+      },
+      "strict_crossing_lower_bound": 1667
+    },
+    {
+      "task": "mammal_other",
+      "seed": 4,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.2807235289051252,
+      "coverage": 0.8924,
+      "avg_set_size": 0.9289,
+      "targeted_queries": 1980,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.2807235289051252,
+        "coverage": 0.8924,
+        "avg_set_size": 0.9289
+      },
+      "strict_crossing_lower_bound": 1860
+    },
+    {
+      "task": "mammal_other",
+      "seed": 4,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9057887565115977,
+      "coverage": 0.8976,
+      "avg_set_size": 1.022,
+      "targeted_queries": 1736,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9080496763565804,
+        "coverage": 0.8996,
+        "avg_set_size": 1.026
+      },
+      "strict_crossing_lower_bound": 1679
+    },
+    {
+      "task": "mammal_other",
+      "seed": 5,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.3062894757813528,
+      "coverage": 0.901,
+      "avg_set_size": 0.9404,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.3062894757813528,
+        "coverage": 0.901,
+        "avg_set_size": 0.9404
+      },
+      "strict_crossing_lower_bound": 1871
+    },
+    {
+      "task": "mammal_other",
+      "seed": 5,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9040270481586214,
+      "coverage": 0.8916,
+      "avg_set_size": 1.0176,
+      "targeted_queries": 1729,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9003059439726467,
+        "coverage": 0.8888,
+        "avg_set_size": 1.0127
+      },
+      "strict_crossing_lower_bound": 1669
+    },
+    {
+      "task": "mammal_other",
+      "seed": 6,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.29834234714508057,
+      "coverage": 0.8985,
+      "avg_set_size": 0.9367,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.29834234714508057,
+        "coverage": 0.8985,
+        "avg_set_size": 0.9367
+      },
+      "strict_crossing_lower_bound": 1880
+    },
+    {
+      "task": "mammal_other",
+      "seed": 6,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9070269931966428,
+      "coverage": 0.9007,
+      "avg_set_size": 1.0263,
+      "targeted_queries": 1737,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9086670077126823,
+        "coverage": 0.9021,
+        "avg_set_size": 1.0295
+      },
+      "strict_crossing_lower_bound": 1678
+    },
+    {
+      "task": "mammal_other",
+      "seed": 7,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.29888969351855166,
+      "coverage": 0.8987,
+      "avg_set_size": 0.9369,
+      "targeted_queries": 2000,
+      "random_queries": 1998,
+      "same_cost_random_clean_cp": {
+        "q": 0.29888969351855166,
+        "coverage": 0.8987,
+        "avg_set_size": 0.9369
+      },
+      "strict_crossing_lower_bound": 1872
+    },
+    {
+      "task": "mammal_other",
+      "seed": 7,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9056990096098309,
+      "coverage": 0.8997,
+      "avg_set_size": 1.0303,
+      "targeted_queries": 1753,
+      "random_queries": 1998,
+      "same_cost_random_clean_cp": {
+        "q": 0.9096022944155677,
+        "coverage": 0.9036,
+        "avg_set_size": 1.0356
+      },
+      "strict_crossing_lower_bound": 1696
+    },
+    {
+      "task": "mammal_other",
+      "seed": 8,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.2921597957611084,
+      "coverage": 0.8967,
+      "avg_set_size": 0.9348,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.2921597957611084,
+        "coverage": 0.8967,
+        "avg_set_size": 0.9348
+      },
+      "strict_crossing_lower_bound": 1888
+    },
+    {
+      "task": "mammal_other",
+      "seed": 8,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9114194401302519,
+      "coverage": 0.9016,
+      "avg_set_size": 1.0297,
+      "targeted_queries": 1730,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9079735567165484,
+        "coverage": 0.899,
+        "avg_set_size": 1.0254
+      },
+      "strict_crossing_lower_bound": 1681
+    },
+    {
+      "task": "mammal_other",
+      "seed": 9,
+      "score": "residual",
+      "n": 2000,
+      "q": 0.31982483385949334,
+      "coverage": 0.9043,
+      "avg_set_size": 0.9451,
+      "targeted_queries": 2000,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.31982483385949334,
+        "coverage": 0.9043,
+        "avg_set_size": 0.9451
+      },
+      "strict_crossing_lower_bound": 1879
+    },
+    {
+      "task": "mammal_other",
+      "seed": 9,
+      "score": "aps",
+      "n": 2000,
+      "q": 0.9121666552813207,
+      "coverage": 0.9049,
+      "avg_set_size": 1.0393,
+      "targeted_queries": 1712,
+      "random_queries": 2000,
+      "same_cost_random_clean_cp": {
+        "q": 0.9121666552813207,
+        "coverage": 0.9049,
+        "avg_set_size": 1.0393
+      },
+      "strict_crossing_lower_bound": 1655
+    }
+  ]
+}

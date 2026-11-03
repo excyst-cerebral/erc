@@ -1,0 +1,75 @@
+{
+  "stage": "Mechanism-motivated follow-up after the fixed-cost disagreement grid showed only small exact/coarse gains.",
+  "tasks": {
+    "animal_vehicle": [
+      0,
+      1,
+      8,
+      9
+    ],
+    "mammal_other": [
+      3,
+      4,
+      5,
+      7
+    ]
+  },
+  "uncertain_pool_and_uniform_review": [
+    [
+      400,
+      100
+    ],
+    [
+      800,
+      200
+    ]
+  ],
+  "coverage_targets": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "scores": [
+    "residual",
+    "aps"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "calibration_seed_offset": 18100,
+  "review_seed_offset": 19800,
+  "clean_audit_seed_offset": 24300,
+  "gamma_fraction_of_total_error": 0.1,
+  "aps_seed_offset": 20261022,
+  "allocation": "Select the fixed-size pool with smallest maximum binary probability, using index tie breaking. Correct every label outside that pool and a uniform sample inside it. Leave the unaudited pool as the suspect set and invert a hypergeometric test for its residual corruption budget.",
+  "scope": "Fixed binary coarsenings of real CIFAR-10N human annotations. Dataset reference labels emulate correct adjudication. One cached classifier; no newly conducted human review. All prespecified follow-up configurations are retained, including null and negative comparisons. This is exploratory evidence, not an independently replicated deployment claim."
+}

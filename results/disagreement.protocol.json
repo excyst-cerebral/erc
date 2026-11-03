@@ -1,0 +1,72 @@
+{
+  "tasks": [
+    "original_10class",
+    "animal_vehicle"
+  ],
+  "vehicle_classes": [
+    0,
+    1,
+    8,
+    9
+  ],
+  "animal_classes": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "coverage_targets": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "total_adjudication_budgets": [
+    500,
+    1000
+  ],
+  "scores": [
+    "residual",
+    "aps"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "calibration_seed_offset": 8100,
+  "review_seed_offset": 9800,
+  "clean_audit_seed_offset": 14300,
+  "gamma_fraction_of_total_error": 0.1,
+  "aps_seed_offset": 20261022,
+  "allocation": "Correct mapped annotation disagreements, then review a uniform consensus sample to exhaust the fixed total budget. If disagreements exceed the total budget, use a uniform audit of the whole pool instead.",
+  "scope": "Real recorded human annotations and cached image classifiers. Corrections use dataset reference labels to emulate adjudication. Binary labels are a fixed coarsening of the original task, not new human annotations. All grid configurations are reported; no test-selected guarantee or new independent classifier training is claimed."
+}
